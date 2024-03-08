@@ -34,7 +34,9 @@
             ],
             "scripts": [],
             "server": "src/main.server.ts",
-            "prerender": true,
+            "prerender": {
+              "routesFile": "routes.txt"
+            },
             "ssr": {
               "entry": "server.ts"
             }
@@ -102,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6466e175-dadf-4427-baa1-7b4efbb2bd73"
   }
 }
